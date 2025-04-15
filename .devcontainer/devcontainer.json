@@ -24,14 +24,19 @@
 			"version": "latest"
 		}
 	},
-
-
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "uv sync",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	"remoteUser": "devcontainer"
+	"remoteUser": "devcontainer",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"d-biehl.robotcode",
+				"tamasfe.even-better-toml"
+			],
+			"settings": {
+				"python.experiments.enabled": false
+			}
+		}
+	}
 }

@@ -17,3 +17,8 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/dosomething"]
+
+[dependency-groups]
+dev = [
+    "robotframework-tidy>=4.16.0",
+]
