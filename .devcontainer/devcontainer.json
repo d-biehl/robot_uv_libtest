@@ -3,7 +3,7 @@
 {
 	"name": "Default",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mmcr.microsoft.com/devcontainers/python:3.13-bookworm",
+	"image": "mcr.microsoft.com/devcontainers/python:3.13-bookworm",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": true,
