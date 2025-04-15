@@ -35,7 +35,9 @@
 				"tamasfe.even-better-toml"
 			],
 			"settings": {
-				"python.experiments.enabled": false
+				"python.experiments.enabled": false,
+				"python.terminal.activateEnvInCurrentTerminal": true,
+				"python.defaultInterpreterPath": ".venv/bin/python"
 			}
 		}
 	}
